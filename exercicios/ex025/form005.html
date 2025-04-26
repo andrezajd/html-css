@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+      <fieldset>
+        <legend>Sexo</legend>
+          <input type="radio" name="sexo" id="ismas" value="M"> <label for="ismas">Masculino</label><br>
+          <input type="radio" name="sexo" id="isfem" value="F"> <label for="isfem">Feminino</label>
+
+      </fieldset>
+      <fieldset>
+        <legend>Navegadores</legend>
+
+
+      <input type="checkbox" name="chome" id="ichrome" checked>  <label for="ichrome">Chrome</label><br>
+      <input type="checkbox" name="Firefox" id="ifire"><label for="ifire">Firefox</label>  <br>
+      <input type="checkbox" name="Brave" id="ibrave"> <label for="ibrave">Brave </label><br>
+      <input type="checkbox" name="Safari" id="isafari"><label for="isafari"> Safari</label><br>
+
+      <p>
+          </fieldset>
+          <input type="submit" value="Enviar">
+          <input type="reset"  value="Reset">
+
+      </p>
+
+
+    </form>
+
+  </body>
+</html>
